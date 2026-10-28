@@ -11,16 +11,26 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "You’ve just joined the front-end development team of a national safety awareness \r organization in the US. Your first assignment is to build a web application that \r fetches weather alerts from the National Weather Service API for a specific U.S. \r state. The app should dynamically display relevant alert headlines and handle edge \r cases like invalid input and network errors.",
   "devDependencies": {
     "@eslint/js": "^9.8.0",
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.6.4",
     "eslint": "^9.8.0",
     "globals": "^15.8.0",
-    "jest": "^29.7.0"
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^30.5.2"
   },
-  "dependencies": {
-    "jest-environment-jsdom": "^30.0.5"
-  }
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teddymahiany468-sudo/course-3-module-4-external-apis-and-fetching-lab.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/teddymahiany468-sudo/course-3-module-4-external-apis-and-fetching-lab/issues"
+  },
+  "homepage": "https://github.com/teddymahiany468-sudo/course-3-module-4-external-apis-and-fetching-lab#readme"
 }
